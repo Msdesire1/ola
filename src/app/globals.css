@@ -3,31 +3,62 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary-color: #181818;
+  --secondary-color: #0f0f0f;
+  --tetiary-color: #181818;
+  --tab-color: #0f0f0f;
+  --border-color: #ffffff;
+  --text-color: #ffffff;
+  --dark-color: #000000;
+  --special-color: #181818;
+  --text: #ffffff80;
+  --yellow: #ffd900;
+  --responseText: #ffd900;
+  --table-color: #181818;
+  --border-balck: #000;
+  --btn-black: #000;
+  --yellowish-color: #faf8ed;
+  --prop-bg-color: #181818;
+  --the-border: rgba(0, 0, 0, 0.05);
+  --input-border: rgba(0, 0, 0, 0.1);
+  --nav: #0f0f0f;
+}
+.light-mode {
+  --primary-color: #fafafa;
+  --secondary-color: #ffffff;
+  --tetiary-color: #fafafa;
+  --border-color: #00000012;
+  --special-color: #fafafa;
+  --tab-color: #fafafa;
+  --text-color: #000000;
+  --dark-color: #000000;
+  --responseText: #63d369;
+  --table-color: #fafafa;
+  --btn-black: #fff;
+  --yellowish-color: #faf8ed;
+  --prop-bg-color: #fff;
+  --the-border: rgba(0, 0, 0, 0.05);
+  --input-border: rgba(0, 0, 0, 0.1);
+  --nav: #fff;
+}
+.dark-mode {
+  --primary-color: #181818;
+  --secondary-color: #0f0f0f;
+  --tetiary-color: #181818;
+  --tab-color: #0f0f0f;
+  --border-color: #ffffff;
+  --special-color: #181818;
+  --text-color: #ffffff;
+  --dark-color: #000000;
+  --text: #ffffff80;
+  --yellow: #ffd900;
+  --responseText: #ffd900;
+  --table-color: #181818;
+  --btn-black: #000;
+  --yellowish-color: #181818;
+  --prop-bg-color: #181818;
+  --the-border: #181818;
+  --input-border: rgba(255, 255, 255, 0.2);
+  --nav: #0f0f0f;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
