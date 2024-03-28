@@ -3,6 +3,7 @@ import Link from "next/link";
 import Props3 from "@/components/props/Props3"; 
  import HomeProps from "@/components/HomeProps";
 import { Img } from "@/components/Img";
+import Home1 from "@/components/Home1";
 import Props4 from "@/components/props/Props4";
 import Footer from "@/components/props/Footer";
 
@@ -11,9 +12,9 @@ export default function swap(){
    return (
 <>
 <section className="bg-[var(--secondary-color)]  text-[var(--text-color)]">
-    <div className='grid md:grid-cols-2 items-center gap-10 grid-cols-1 w-full  lg:py-[5%]'>
+    <div className='grid md:grid-cols-2 items-center gap-40 grid-cols-1 w-full  lg:py-[4%]'>
         <div className='w-full flex flex-col gap-3 lg:px-[25%] px-10'>
-          <h1 className='font-bold w-[155%]   lg:text-6xl text-xl'>
+          <h1 className='font-bold w-[160%]  lg:text-6xl text-xl'>
           Effortless currency conversion
           </h1>
           <p className='lg:text-[14px]  lg:w-[120%] py-4  text-[11px]'>Effortlessly swap between currencies, hold various denominations, and track your transactions in real-time.</p>
@@ -29,7 +30,7 @@ export default function swap(){
               </div>
         </div>
         <div className='lg:w-full  items-center lg:pl-10 px-10'>
-        <img height={400} width={487} src="/asset/TULUPAY ECCOSYSTEM@5-1536x730 1.svg" className="lg:h-[px]" alt="png" />
+        <img height={489} width={437} src="/asset/TULUPAY ECCOSYSTEM@5-1536x730 1.svg" className="lg:h-[px]" alt="png" />
         </div>
       </div>
 
@@ -52,7 +53,7 @@ export default function swap(){
      />
 </div>
 <div>
-     <HomeProps
+     <Home1
       paragraph={
         "No surprises here! Tulu Purse offers a clear and upfront fee structure for all currency conversions. You'll know exactly what costs are involved before you initiate a transaction, allowing you to budget effectively"
       }

@@ -111,7 +111,7 @@ const Navbar = ({ icon, handleToggleIcon }) => {
                   >
                     <ul className="py-[10px] px-2 grid grid-cols-2 gap-5">
                       <Menu
-                        link="/payment"
+                        link="/multi"
                         img="/asset/logo1.svg"
                         head="Multi-currency account"
                         sub="Payment made easy with our streamlined Tulupay process."
@@ -129,7 +129,7 @@ const Navbar = ({ icon, handleToggleIcon }) => {
                         sub="Payment made easy with our streamlined Tulupay process."
                       />
                        <Menu
-                        link="/virtual"
+                        link="/virtual-card"
                         img="/asset/logo4.svg"
                         head="Virtual Card"
                         sub="Payment made easy with our streamlined Tulupay process."

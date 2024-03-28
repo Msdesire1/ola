@@ -14,9 +14,9 @@ export default function virtual() {
     return (
       <>
     <section className="bg-[var(--secondary-color)]  text-[var(--text-color)]">
-    <div className='grid md:grid-cols-2 items-center gap-10 grid-cols-1 w-full  lg:py-[5%]'>
+    <div className='grid md:grid-cols-2 items-center gap-40 grid-cols-1 w-full  lg:py-[5%]'>
         <div className='w-full flex flex-col gap-3 pt-2 lg:px-[25%] px-10'>
-          <h1 className='font-bold w-[155%]   lg:text-6xl text-xl'>
+          <h1 className='font-bold w-[160%]   lg:text-6xl text-xl'>
           Your virtual wallet for the world
           </h1>
           <p className='lg:text-[14px]  lg:w-[120%] py-4  text-[11px]'>The world is your marketplace with the Tulu Purse virtual card. Shop online from international retailers without currency conversion worries.</p>
@@ -32,7 +32,7 @@ export default function virtual() {
               </div>
         </div>
         <div className='lg:w-full  items-center lg:pl-5 px-10'>
-        <img height={451} width={500} src="/asset/TULUPAY ECCOSYSTEM@5-1536x730 (3) 1.svg" className="lg:h-[px]" alt="png" />
+        <img height={525} width={461} src="/asset/TULUPAY ECCOSYSTEM@5-1536x730 (3) 1.svg" className="lg:h-[px]" alt="png" />
         </div>
       </div>
 
@@ -46,14 +46,14 @@ export default function virtual() {
             <div className="grid md:grid-cols-2 lg:pl-32">
                 <div className=" bg-[#fafafa]">
                 <div className="bg-[#fafafa] border rounded-lg lg:w-[561px]  lg:h-[470px]   ">
-                   <div className="items-center pt-10 lg:w-[439px] lg:h-[293px] lg:pl-10"><img src="/asset/elevate.svg" alt="" /></div>
+                   <div className="items-center pt-10 lg:w-[439px] lg:h-[293px] lg:pl-10"><img src="/asset/purse.svg" alt="" /></div>
                   <h3 className="text-[14px] font-bold lg:text-2xl pl-10 pt-16  text-[var(--text-color)]">Elevate your payment experience</h3>
                   <p className="text-[14px] opacity-50 pl-10 pt-2 text-[var(--text-color)]">Make secure and contactless payments with your smartphone or wearable device, eliminating the need to carry physical cards.</p>
                 </div>
                 
                 <div className="pt-5 bg-[#fafafa]">
                 <div className="bg-[#fafafa] border rounded-lg lg:w-[561px]  lg:h-[470px]">
-                   <div className="items-center pt-10 lg:w-[439px] lg:h-[293px] pl-10"><img src="/asset/global shopping.svg" alt="" /></div>
+                   <div className="items-center pt-10 lg:w-[439px] lg:h-[293px] pl-10"><img src="/asset/us.svg" alt="" /></div>
                   <h3 className="text-[14px] font-bold lg:text-2xl pl-10 pt-16  text-[var(--text-color)]">Global shopping experience</h3>
                   <p className="text-[14px] opacity-50 pl-10 pt-2 text-[var(--text-color)]">Make purchases in any currency directly with your virtual card. Tulu Purse automatically converts the amount at competitive exchange rates, eliminating the need for pre-conversion.</p>
                 </div>
@@ -65,7 +65,7 @@ export default function virtual() {
 
                 <div>
                 <div className="bg-[#fafafa] border rounded-lg lg:w-[561px]  lg:h-[1,067px] lg:pr-40">
-                   <div className="items-center pt-5 lg:w-[500px] lg:h-[500px]  pl-10 pb-20"><img src="/asset/global.svg" alt="" /></div>
+                   <div className="items-center pt-5 lg:w-[500px] lg:h-[500px]  pl-10 pb-20"><img src="/asset/3201.svg" alt="" /></div>
                   <h3 className="text-[14px] font-bold lg:text-2xl pl-10 pt-56  text-[var(--text-color)]">Secure and trustworthy transactions</h3>
                   <p className="text-[14px] opacity-50 pl-10 pt-5 pb-10 text-[var(--text-color)]">Instantly lock or freeze your virtual card directly within the app in case of loss or theft, preventing unauthorized use and protecting your funds.</p>
                  <div className="pl-10 pb-5">

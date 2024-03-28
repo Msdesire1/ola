@@ -16,7 +16,7 @@ export default function payment() {
     return (
       <>
       <section className="bg-[var(--secondary-color)]  text-[var(--text-color)]">
-             <div className='grid md:grid-cols-2 items-center gap-10 grid-cols-1 w-full  lg:py-[5%]'>
+             <div className='grid md:grid-cols-2 items-center gap-40 grid-cols-1 w-full  lg:py-[5%]'>
         <div className='w-full flex flex-col gap-3 pt-2 lg:px-[25%] px-10'>
           <h1 className='font-bold w-[155%]   lg:text-6xl text-xl'>
           Conquer borders without breaking a sweat
@@ -34,7 +34,7 @@ export default function payment() {
               </div>
         </div>
         <div className='lg:w-full  items-center lg:pl-5 px-10'>
-        <img height={451} width={500} src="/asset/TULUPAY ECCOSYSTEM@5-1536x730 (5) 1.svg" className="lg:h-[px]" alt="png" />
+        <img height={445} width={441} src="/asset/TULUPAY ECCOSYSTEM@5-1536x730 (5) 1.svg" className="lg:h-[px]" alt="png" />
         </div>
 
       </div>
@@ -86,13 +86,13 @@ export default function payment() {
       paragraph2={"Receive money internationally too, with account details and IBANs for 9 currencies. Use them to get money from overseas."}
       paragraph3={"Creating a secure login"}
       paragraph4={"Verifying your identity"}
-      image={"/asset/payment.svg"}
+      image={"/asset/3145.svg"}
       />
 </div> 
 
       <div> 
       <Pay
-       image={"/asset/payment.svg"}
+       image={"/asset/add.svg"}
      head= {"Expanding your financial horizon"}
       head2={"Adding a new currency to your account"}
       paragraph2={"Receive money internationally too, with account details and IBANs for 9 currencies. Use them to get money from overseas."}
@@ -109,7 +109,7 @@ export default function payment() {
       paragraph2={"Receive money internationally too, with account details and IBANs for 9 currencies. Use them to get money from overseas."}
       paragraph3={"Empower Your Loved Ones"}
       paragraph4={"Experience a Borderless World"}
-      image={"/asset/payment.svg"}
+      image={"/asset/success.svg"}
       />
 </div> 
 <div>

@@ -112,6 +112,17 @@ export default function Home() {
                   <p className="lg:text-[14px] text-[14px] flex justify-center items-center lg:px-[7%] text-[var(--text-color)]  opacity-80">
                     Convert between different currencies quickly and easily, directly within the Tulu Purse app. No more need for third-party exchanges or complex calculations.
                   </p>
+                  <div className="lg:pl-16">
+                    <Img
+                  darkModeSrc={"/asset/$00.svg"}
+            lightModeSrc={"/asset/$00.svg"}
+            properties={"3/3"}
+            height={200}
+            width={350}
+          />
+               </div>
+
+
                 </div>
               </div>
             </div>
@@ -127,6 +138,17 @@ export default function Home() {
                   <p className="lg:text-[14px] text-[14px] flex justify-center items-center lg:px-[7%] text-[var(--text-color)]  opacity-80">
                     Tulu Purse offers competitive exchange rates and low transaction fees, saving you money compared to traditional currency exchange services.
                   </p>
+
+                  <div className="lg:pl-20">
+                    <Img
+                  darkModeSrc={"/asset/$001.svg"}
+            lightModeSrc={"/asset/$001.svg"}
+            properties={"w-3/3"}
+            height={50}
+            width={350}
+          />
+               </div>
+
                 </div>
               </div>
             </div>
@@ -147,6 +169,15 @@ export default function Home() {
                 <p className="lg:text-[14px] text-[14px] flex justify-center items-center lg:px-[7%] text-[var(--text-color)]  opacity-80">
                   Tulu Purse prioritizes security with robust measures to protect your financial information and transactions. Enjoy peace of mind knowing your money is safe.
                 </p>
+                <div className="lg:pl-20">
+                    <Img
+                  darkModeSrc={"/asset/pin.svg"}
+            lightModeSrc={"/asset/pin.svg"}
+            properties={"w-3/3"}
+            height={50}
+            width={350}
+          />
+               </div>
               </div>
             </div>
           </div>
@@ -162,6 +193,15 @@ export default function Home() {
                 <p className="lg:text-[14px] text-[14px] flex justify-center items-center lg:px-[7%] text-[var(--text-color)]  opacity-80">
                   Tulu Purse offers clear exchange rates and fees upfront, empowering you to make informed decisions about your finances.
                 </p>
+                <div className="pl-16  h-[50px]">
+                    <Img
+                  darkModeSrc={"/asset/control.svg"}
+            lightModeSrc={"/asset/control.svg"}
+            properties={"w-3/3"}
+            height={50}
+            width={350}
+          />
+               </div>
               </div>
             </div>
           </div>
@@ -180,43 +220,45 @@ export default function Home() {
             paragraph1={"Ditch the stacks of cash! Tulu Purse lets you hold all your favorite currencies in one convenient account. Effortlessly switch between them, track your balances, and say goodbye to hidden fees."}
             btn={"Learn more"}
           />
-          <div data-aos="fade-left" className="">
-            <Img
-              darkModeSrc={"/asset/Rectangle1.svg"}
-              lightModeSrc={"/asset/Rectangle1.svg"}
+          <div data-aos="fade-left" className=" pt-5">
+             <Img
+              darkModeSrc={"/asset/phone.svg"}
+              lightModeSrc={"/asset/phone.svg"}
               properties={"w-[500px] h-[448px]"}
               height={200}
               width={400}
             />
-
-          </div>
+             </div>
         </div>
+
+
         {/* 10  */}
-        <div className="grid  md:grid-cols-2 text-[var--text-color] gap-5 px-10">
+        <div className="grid  md:grid-cols-2 text-[var--text-color] gap-5 px-1 pt-10">
           <Props2
             header={"Swap money to any currency"}
             paragraph1={"The world is your oyster with Tulu Purse! Swap between any supported currency with just a few taps. No matter where you are or who you're sending money to, Tulu Purse makes it easy."}
             btn={"Learn more"}
           />
-          <div className="pt-20 pb-3 text-[var{--text-color}]"><img src="/asset/Rectangle1.svg" width={"500px"} height={"380px"} alt="" /></div>
+          <div className="pt-20 pb-3 text-[var{--text-color}]"><img src="/asset/jonh.svg" width={"500px"} height={"380px"} alt="" /></div>
         </div>
         {/* 11 */}
-        <div className="grid  md:grid-cols-2 text-[var--text-color] gap-5 px-10">
+        <div className="grid  md:grid-cols-2 text-[var--text-color] gap-5 px-10 pt-10">
           <Props2
             header={"Shop like a local (anywhere!)"}
             paragraph1={"Forget the currency exchange hassle! Use your Tulu Purse virtual card to shop online or in-store, anywhere in the world. Pay in the local currency without hidden fees and enjoy the freedom of global spending."}
             btn={"Learn more"}
           />
-          <div className="pt-20 pb-3 text-[var{--text-color}]"><img src="/asset/Rectangle1.svg" width={"500px"} height={"380px"} alt="" /></div>
+          <div className="text-[var{--text-color}]"><img src="/asset/atm.svg" width={"500px"} height={"380px"} alt="" /></div>
         </div>
+
         {/* 12 */}
-        <div className="grid  md:grid-cols-2 text-[var--text-color] gap-5 px-10 pb-10">
+        <div className="grid  md:grid-cols-2 text-[var--text-color] gap-5 px-10 py-20">
           <Props2
             header={"Send and receive like a pro"}
             paragraph1={"Sending money home? Tulu Purse makes international transfers a breeze. Send and receive money securely with competitive rates, all within the app."}
             btn={"Learn more"}
           />
-          <div className="pt-20 pb-3 text-[var{--text-color}]"><img src="/asset/Rectangle1.svg" width={"500px"} height={"380px"} alt="" />
+          <div className="pt-20 pb-3 text-[var{--text-color}]"><img src="/asset/amount.svg" width={"500px"} height={"380px"} alt="" />
           </div>
         </div>
         {/* 13 */}

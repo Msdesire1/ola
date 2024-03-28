@@ -11,7 +11,7 @@ const Props2 = ({header,paragraph1,btn}) => {
       <p className="lg:text-[16px] text-[14px] flex justify-center items-center lg:px-[10%] text-[var(--text-color)]  opacity-80">
     {paragraph1}
       </p>
-     <div className='lg:pl-16'><button className='btn px-10 bg-[#FFD900] rounded-[7px] border hover:border-text-yellow text-black hover:text-[#FFD900] hover:bg-black hover:border hover:border-solid border-color-secondary py-2'>{btn}</button> </div>
+     <div className='lg:pl-12'><button className='btn px-10 bg-[#FFD900] rounded-[7px] border hover:border-text-yellow text-black hover:text-[#FFD900] hover:bg-black hover:border hover:border-solid border-color-secondary py-2'>{btn}</button> </div>
 </div>
     </div>
   )

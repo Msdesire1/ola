@@ -11,7 +11,7 @@ export default function money(){
    return (
 <>
 <section className="bg-[var(--secondary-color)]  text-[var(--text-color)]">
-    <div className='grid md:grid-cols-2 items-center gap-10 grid-cols-1 w-full  lg:py-[5%]'>
+    <div className='grid md:grid-cols-2 items-center gap-40 grid-cols-1 w-full  lg:py-[5%]'>
         <div className='w-full flex flex-col gap-3 lg:px-[25%] px-10'>
           <h1 className='font-bold w-[155%]   lg:text-6xl text-xl'>
           Break down borders, build connections
@@ -29,7 +29,7 @@ export default function money(){
               </div>
         </div>
         <div className='lg:w-full  items-center lg:pl-10 px-10'>
-        <img height={400} width={487} src="/asset/TULUPAY (2).svg" className="lg:h-[px]" alt="png" />
+        <img height={418} width={540} src="/asset/TULUPAY (2).svg" className="lg:h-[px]" alt="png" />
         </div>
       </div>
 
